@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+		<title>Contato FECON-2022</title>
+
+        <link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="caixa">
+                <h2> <img src="img/logo.png" alt="Logo do Colégio Estadual Gabriel de Lara"></h2>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pagina.html">Página</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" class="imput-padrao" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" class="imput-padrao" required placeholder="seuemail@escola.pr.gov.br">
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" class="imput-padrao" required placeholder="(XX)XXXXXXXX">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea cols="70" rows="10" id="mensagem" class="imput-padrao" required></textarea>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-whats"><input type="radio" name="contato" value="whats" id="radio-whats" checked>WhatsApp</label>
+                    
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                    
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual horário prefereido para contato?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+            </form>
+        </main>
+                
+        <footer>
+            <img id="letras" src="img/iniciais-logo.png" alt="Logo do Colégio Estadual Gabriel de Lara">
+            <p class="copyright">&copy; Copyright FECON-2022</p>
+        </footer>
+    
+    </body>
+    
+</html>

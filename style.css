@@ -1,0 +1,145 @@
+header {
+	background: #062157;
+    padding: 15px 0;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 30px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #f6f610;
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: none;
+}
+nav a:hover {
+    color:#FFFFFF;
+    text-decoration: underline;
+}
+#banner {
+	width: 100%;
+}
+.fecon{
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.fecon li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background: #cccccc;
+    margin: 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.fecon li:hover {
+    border-color: #f7f610;
+}
+.fecon h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.principal{
+	background: #7dcaa4;
+	padding: 30px;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background: url("img/bd.jpg");
+    padding: 30px;
+}
+
+#letras {
+    width: 5%;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin: 10px 0 0;
+}
+.imagembeneficios {
+	width: 50%;
+}
+.color1 { color: #f7f610 }
+.color2 { color: #648cd4 }
+.color3 { color: #0c763d }
+.color4 { color: #062157 }
+.color5 { color: #b3c8b2 }
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.imput-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.enviar {
+    width: 30%;
+    padding: 15px 0;
+    background: #062157;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: #0c763d;
+    color: #000000;
+    transform: scale(1.15);
+    
+}
