@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+		<title>FECON-2022</title>
+
+        <link rel="stylesheet" href="../libraries/reset.css">
+		<link rel="stylesheet" href="../libraries/style-home.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="caixa">
+                <h2> <img src="img/logo.png"></h2>
+                <nav>
+                    <ul>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="testecod.php">Estudantes</a></li>
+                        <li><a href="professores.php">Professores</a></li>
+                        <li><a href="contato.php">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <img class="banner" src="../img/banner.jpg">
+        
+        <main>
+            <section class="principal">
+                <h2 class="titulo-principal">XVIII Feira do Conhecimento, FECON-2022</h2>
+
+                <img class="anos200" src="../img/200anos.jpg" alt="200 anos da Indepenência do Brasil.">
+
+                <p>A Feira do Conhecimento é um evento do Colégio Estadual Gabriel de Lara, coordenado por seus professores, juntamente com a Direção. </p>
+                <p>Este evento, de caráter pedagógico e científico, visa ampliar as possibilidades do conhecimento e a interação escola-comunidade. </p>
+                <p>Tem por objetivo oportunizar os alunos do Ensino Fundamental e Ensino Médio, práticas de iniciação científica, através da pesquisa, da apresentação e demonstração de trabalhos planejados e executados por eles, sob a orientação de seus professores, possibilitando a expressão artística, criatividade, raciocínio lógico, capacidade de pesquisa e conhecimentos científicos, nas diversas áreas do conhecimento.</p>
+            </section>
+
+            <section class="cronograma">
+                <h2 class="titulo-principal">Local e data de realização:</h2>
+                
+                <div class="conteudo-cronograma">
+                    <ul class="lista-cronograma">
+                        <li class="itens"> Colégio Estadual Gabriel de Lara</li>
+                        <li class="itens"> Ensino Fundamental (6º ao 9º ano): 4 de outubro de 2022.</li>
+                        <li class="itens"> Ensino Médio (1ª a 3º série): dia 5 de outubro de 2022.</li>
+                        <li class="iten">Horário para visitação:</li>
+                        <li class="itens"> Manhã, das 9:00h às 11:30h.</li>
+                        <li class="itens"> Tarde, das 13:30h às 16:30h.</li>
+                    </ul>
+                </div>
+               
+            </section>
+
+            <section class="mapa">
+                    <h3 class="titulo-principal"> Nosso estabelecimento</h3>
+                    <p>Estamos localizados no Centro de Matinhos/PR.</p>
+                    <div class="mapa-conteudo">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3591.5558661751516!2d-48.5377750853618!3d-25.81822255466145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dbef2d7dad6ccd%3A0xf6b82f2182d031c1!2sGabriel%20De%20Lara%2C%20C%20E-Ef%20M!5e0!3m2!1spt-BR!2sbr!4v1661889402740!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+            </section>
+        </main>
+
+       
+
+        <footer>
+            <img id="letras" src="../img/iniciais-logo.png">
+            <p class="copyright">&copy; Copyright FECON-2022</p>
+        </footer>
+
+    </body>
+
+</html>
