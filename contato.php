@@ -1,5 +1,5 @@
 <?php
-    require_once("../models/connection.php");
+    require_once("models/connection.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
